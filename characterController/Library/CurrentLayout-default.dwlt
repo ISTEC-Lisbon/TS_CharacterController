@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 43
-    width: 1920
-    height: 997
+    width: 1366
+    height: 941
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: GitHub
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+    width: 1366
+    height: 891
+  m_MinSize: {x: 504, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 16
+  controlID: 52
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,21 +59,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1366
+    x: 1052
     y: 0
-    width: 554
-    height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+    width: 314
+    height: 891
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
+  - {fileID: 15}
+  - {fileID: 12}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -92,13 +93,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 402
-    height: 426
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 472
+    height: 601
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -111,22 +112,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 426
-    width: 1366
-    height: 521
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+    y: 601
+    width: 1052
+    height: 290
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 0
+  - {fileID: 14}
+  - {fileID: 19}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -148,9 +149,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 997
-  m_MinSize: {x: 875, y: 300}
+    width: 1366
+    height: 941
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -173,13 +174,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1366
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
-  - {fileID: 19}
-  m_MainToolbar: {fileID: 19}
+  - {fileID: 20}
+  m_MainToolbar: {fileID: 20}
   m_LastLoadedLayoutName: 
 --- !u!114 &8
 MonoBehaviour:
@@ -197,8 +198,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
-    width: 1920
+    y: 921
+    width: 1366
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -221,12 +222,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 947
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+    width: 1052
+    height: 891
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 17
+  controlID: 57
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +247,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 426
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+    width: 1052
+    height: 601
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 58
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,25 +263,4620 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 402
+    x: 472
     y: 0
-    width: 964
-    height: 426
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+    width: 580
+    height: 601
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 18}
+  - {fileID: 13}
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2972
+    y: 73
+    width: 313
+    height: 870
+  m_ViewDataDictionary: {fileID: 0}
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 5
+  activeTab: 5
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2021-04-12T10:44:46.311+01:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2021-04-12T10:49:39.806+01:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2021-04-12T10:44:55.785+01:00
+      cacheType: 1
+    currentBranch:
+      name: master
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: 
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[master]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - 46d244b7d94d44342b48bbb3efe166cb
+        - ca3004251ee35ed4589f0c2fb45bb7c2
+        - 59d40e0e393bf194983e59471e662347
+        - d76756d7c21cf5b4aa40330b8f77809d
+        - 96cf752ea3dabf348bdefb07c17058d1
+        - 1ce292fd40b7016428a93f72d2642293
+        - 0e9b4caf88e803c459d4dc01112096fb
+        - 700a778dfa01b054384d4cc95f70568c
+        - 8de67a624c5f7614fa1d79d7509f8c8c
+        - ce589db6aa437d94cb8dae9bad44da3f
+        - cad92998c5182496e8b989b406d9f156
+        - d516f2a1bec6a9645a084ef8c9237132
+        - f81094832d834c64d93b198cb16b6a3e
+        - 0188ec438976e5849b40a2c1ce5f20f9
+        - 136dc24f151211d438acee17aff4e934
+        - dae2ecee8a704dd59797e26554ff8606
+        - c743ae24ee231884887054d20ccdd0ab
+        - c743ae24ee231884887054d20ccdd0ae
+        - 15ca2bebf173f2d4484686a03a45b56d
+        - 68c7e4565cde54155bb78d8e935f1ddb
+        - 68c7e4565cde54155bb78d8e935f1dd4
+        - 863e1b9976c4e46d29bf83928b3a8ab2
+        - 636d33ae594884e7d80b569f429d245d
+        - 21206c65839f84d0e9ae14bc1fdc68db
+        - ddb8611e748af425a82a497ac5a98c0c
+        - d601ecb6855bb432bae2aa49d8fd82e8
+        - 48c22d5d7479fcb49ab3be0cdd2ccec0
+        - f9fc9b08ecd899944adf9860b4abd6b6
+        - 790749ba7e4b18141953e39cb13f1b79
+        - 555cd6f54c03341b1970d950df1a5ee5
+        - a0ded7adcc817ce489fec07977f16d13
+        - 868fbb4c41814baebc00f96e24ede2f8
+        - fe5abeadcbe591e4fa9107fbc02f3998
+        - 99b48d4d4f6a66340ab06bd487d70a45
+        - 151a1d946b98deb4b98445400983ba92
+        - a83159a46d87d2a4f8cec651049b9231
+        - d0f4e4f73263b524bb9af1525e9e2b1b
+        - 9fc0d4010bbf28b4594072e72b8655ab
+        - d2f74c5a0145bdc4a81784829779877a
+        - 2cfbc1f1de4205d4f83ef525fb94f7af
+        - ca135cdedde0aa24b82ae465a624aea2
+        - 5dfa4379f9a51dc45b26fbcf9698c6a3
+        - 817175b5f1056394492c420b95602092
+        - 00000000000000006000000000000000
+        - 00000000000000007100000000000000
+        - 00000000000000008000000000000000
+        - 0000000000000000b000000000000000
+        - 0000000000000000c000000000000000
+        - 00000000000000006100000000000000
+        - 00000000000000002000000000000000
+        - 00000000000000004100000000000000
+        - 00000000000000005100000000000000
+        - 0000000000000000b100000000000000
+        - 00000000000000004000000000000000
+        - 0000000000000000e100000000000000
+        - 00000000000000009000000000000000
+        - 00000000000000003000000000000000
+        - 00000000000000007000000000000000
+        - 0000000000000000a100000000000000
+        - 0000000000000000d100000000000000
+        - 0000000000000000c100000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials
+          label: Materials
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials\Black.mat
+          label: Black.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Black.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Black.mat"
+            projectPath: Assets\Materials\Black.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Materials\Blue.mat
+          label: Blue.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Blue.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Blue.mat"
+            projectPath: Assets\Materials\Blue.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Materials\Brown.mat
+          label: Brown.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Brown.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Brown.mat"
+            projectPath: Assets\Materials\Brown.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Materials\Chess.mat
+          label: Chess.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Chess.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Chess.mat"
+            projectPath: Assets\Materials\Chess.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Materials\Green.mat
+          label: Green.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Green.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Green.mat"
+            projectPath: Assets\Materials\Green.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Materials\Red.mat
+          label: Red.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Red.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Red.mat"
+            projectPath: Assets\Materials\Red.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Materials\Yellow.mat
+          label: Yellow.mat
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Yellow.mat
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Yellow.mat"
+            projectPath: Assets\Materials\Yellow.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub
+          label: GitHub
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor
+          label: Editor
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          label: AsyncBridge.Net35.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          label: big-logo@2x.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png"
+            projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\credits.txt
+          label: credits.txt
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\credits.txt
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+            projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\eula.txt
+          label: eula.txt
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\eula.txt
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+            projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          label: ExtensionLoader.cs
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs"
+            projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          label: GitHub.Api.45.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          label: GitHub.Api.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          label: GitHub.Logging.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          label: GitHub.Unity.45.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          label: GitHub.Unity.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          label: GitHub.UnityShim.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          label: libsfw.bundle
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+            projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\libsfw.so
+          label: libsfw.so
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\libsfw.so
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+            projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          label: Mono.Posix.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          label: QuickGuide.pdf
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+            projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          label: ReadOnlyCollectionsInterfaces.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          label: sfw.net.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          label: System.Threading.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          label: UnityAPIWrapper.cs
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs"
+            projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\x64
+          label: x64
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          label: pthreadVC2.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          label: sfw_x64.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\x86
+          label: x86
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          label: pthreadVC2.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          label: sfw_x86.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes\\SampleScene.unity"
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\CameraScript.cs
+          label: CameraScript.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\CameraScript.cs
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\CameraScript.cs"
+            projectPath: Assets\Scripts\CameraScript.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts\PlayerScript.cs
+          label: PlayerScript.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\PlayerScript.cs
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\PlayerScript.cs"
+            projectPath: Assets\Scripts\PlayerScript.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Textures
+          label: Textures
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Textures\chess.jpg
+          label: chess.jpg
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Textures\chess.jpg
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures\\chess.jpg"
+            projectPath: Assets\Textures\chess.jpg
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\AudioManager.asset
+          label: AudioManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\AudioManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\AudioManager.asset"
+            projectPath: ProjectSettings\AudioManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\ClusterInputManager.asset
+          label: ClusterInputManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ClusterInputManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ClusterInputManager.asset"
+            projectPath: ProjectSettings\ClusterInputManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\DynamicsManager.asset
+          label: DynamicsManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\DynamicsManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\DynamicsManager.asset"
+            projectPath: ProjectSettings\DynamicsManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\EditorBuildSettings.asset
+          label: EditorBuildSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\EditorBuildSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\EditorBuildSettings.asset"
+            projectPath: ProjectSettings\EditorBuildSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\EditorSettings.asset
+          label: EditorSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\EditorSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\EditorSettings.asset"
+            projectPath: ProjectSettings\EditorSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\GraphicsSettings.asset
+          label: GraphicsSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\GraphicsSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\GraphicsSettings.asset"
+            projectPath: ProjectSettings\GraphicsSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\InputManager.asset
+          label: InputManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\InputManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\InputManager.asset"
+            projectPath: ProjectSettings\InputManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\NavMeshAreas.asset
+          label: NavMeshAreas.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\NavMeshAreas.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\NavMeshAreas.asset"
+            projectPath: ProjectSettings\NavMeshAreas.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\Physics2DSettings.asset
+          label: Physics2DSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\Physics2DSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\Physics2DSettings.asset"
+            projectPath: ProjectSettings\Physics2DSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\PresetManager.asset
+          label: PresetManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\PresetManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\PresetManager.asset"
+            projectPath: ProjectSettings\PresetManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ProjectSettings.asset"
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\ProjectVersion.txt
+          label: ProjectVersion.txt
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectVersion.txt
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ProjectVersion.txt"
+            projectPath: ProjectSettings\ProjectVersion.txt
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\QualitySettings.asset
+          label: QualitySettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\QualitySettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\QualitySettings.asset"
+            projectPath: ProjectSettings\QualitySettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\TagManager.asset
+          label: TagManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TagManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\TagManager.asset"
+            projectPath: ProjectSettings\TagManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\TimeManager.asset
+          label: TimeManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TimeManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\TimeManager.asset"
+            projectPath: ProjectSettings\TimeManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\UnityConnectSettings.asset
+          label: UnityConnectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\UnityConnectSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\UnityConnectSettings.asset"
+            projectPath: ProjectSettings\UnityConnectSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\VersionControlSettings.asset
+          label: VersionControlSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\VersionControlSettings.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\VersionControlSettings.asset"
+            projectPath: ProjectSettings\VersionControlSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\VFXManager.asset
+          label: VFXManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\VFXManager.asset
+            fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\VFXManager.asset"
+            projectPath: ProjectSettings\VFXManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+      folders:
+        keys:
+        - Assets
+        - Assets\Materials
+        - Assets\Plugins
+        - Assets\Plugins\GitHub
+        - Assets\Plugins\GitHub\Editor
+        - Assets\Plugins\GitHub\Editor\x64
+        - Assets\Plugins\GitHub\Editor\x86
+        - Assets\Scenes
+        - Assets\Scripts
+        - Assets\Textures
+        - Packages
+        - ProjectSettings
+        - UserSettings
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials
+          label: Materials
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub
+          label: GitHub
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor
+          label: Editor
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64
+          label: x64
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86
+          label: x86
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Textures
+          label: Textures
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vsconfig
+        label: .vsconfig
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: .vsconfig
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\.vsconfig"
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Materials.meta
+        label: Materials.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials.meta"
+          projectPath: Assets\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials
+        label: Materials
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Materials\Black.mat
+        label: Black.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Black.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Black.mat"
+          projectPath: Assets\Materials\Black.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Black.mat.meta
+        label: Black.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Black.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Black.mat.meta"
+          projectPath: Assets\Materials\Black.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Blue.mat
+        label: Blue.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Blue.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Blue.mat"
+          projectPath: Assets\Materials\Blue.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Blue.mat.meta
+        label: Blue.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Blue.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Blue.mat.meta"
+          projectPath: Assets\Materials\Blue.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Brown.mat
+        label: Brown.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Brown.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Brown.mat"
+          projectPath: Assets\Materials\Brown.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Brown.mat.meta
+        label: Brown.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Brown.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Brown.mat.meta"
+          projectPath: Assets\Materials\Brown.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Chess.mat
+        label: Chess.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Chess.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Chess.mat"
+          projectPath: Assets\Materials\Chess.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Chess.mat.meta
+        label: Chess.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Chess.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Chess.mat.meta"
+          projectPath: Assets\Materials\Chess.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Green.mat
+        label: Green.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Green.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Green.mat"
+          projectPath: Assets\Materials\Green.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Green.mat.meta
+        label: Green.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Green.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Green.mat.meta"
+          projectPath: Assets\Materials\Green.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Red.mat
+        label: Red.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Red.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Red.mat"
+          projectPath: Assets\Materials\Red.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Red.mat.meta
+        label: Red.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Red.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Red.mat.meta"
+          projectPath: Assets\Materials\Red.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Yellow.mat
+        label: Yellow.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Yellow.mat
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Yellow.mat"
+          projectPath: Assets\Materials\Yellow.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Materials\Yellow.mat.meta
+        label: Yellow.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Yellow.mat.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Yellow.mat.meta"
+          projectPath: Assets\Materials\Yellow.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins.meta
+        label: Plugins.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins.meta"
+          projectPath: Assets\Plugins.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins
+        label: Plugins
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\GitHub.meta
+        label: GitHub.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub.meta"
+          projectPath: Assets\Plugins\GitHub.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub
+        label: GitHub
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor.meta
+        label: Editor.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor.meta"
+          projectPath: Assets\Plugins\GitHub\Editor.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor
+        label: Editor
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        label: AsyncBridge.Net35.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        label: AsyncBridge.Net35.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        label: big-logo@2x.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png"
+          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        label: big-logo@2x.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\credits.txt
+        label: credits.txt
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\credits.txt
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+        label: credits.txt.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\credits.txt.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\eula.txt
+        label: eula.txt
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\eula.txt
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+        label: eula.txt.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\eula.txt.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        label: ExtensionLoader.cs
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs"
+          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        label: ExtensionLoader.cs.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        label: GitHub.Api.45.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        label: GitHub.Api.45.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        label: GitHub.Api.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        label: GitHub.Api.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        label: GitHub.Logging.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        label: GitHub.Logging.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        label: GitHub.Unity.45.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        label: GitHub.Unity.45.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        label: GitHub.Unity.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        label: GitHub.Unity.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        label: GitHub.UnityShim.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        label: GitHub.UnityShim.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+        label: libsfw.bundle
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        label: libsfw.bundle.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so
+        label: libsfw.so
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.so
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        label: libsfw.so.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        label: Mono.Posix.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        label: Mono.Posix.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        label: QuickGuide.pdf
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        label: QuickGuide.pdf.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        label: ReadOnlyCollectionsInterfaces.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        label: ReadOnlyCollectionsInterfaces.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+        label: sfw.net.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        label: sfw.net.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+        label: System.Threading.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        label: System.Threading.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        label: UnityAPIWrapper.cs
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs"
+          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        label: UnityAPIWrapper.cs.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x64.meta
+        label: x64.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x64
+        label: x64
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        label: pthreadVC2.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        label: pthreadVC2.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        label: sfw_x64.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        label: sfw_x64.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x86.meta
+        label: x86.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x86
+        label: x86
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        label: pthreadVC2.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        label: pthreadVC2.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        label: sfw_x86.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        label: sfw_x86.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Resources.meta
+        label: Resources.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Resources.meta"
+          projectPath: Assets\Resources.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes.meta
+        label: Scenes.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes.meta"
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes\\SampleScene.unity"
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes\SampleScene.unity.meta
+        label: SampleScene.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes\\SampleScene.unity.meta"
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts.meta
+        label: Scripts.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts.meta"
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\CameraScript.cs
+        label: CameraScript.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\CameraScript.cs
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\CameraScript.cs"
+          projectPath: Assets\Scripts\CameraScript.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\CameraScript.cs.meta
+        label: CameraScript.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\CameraScript.cs.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\CameraScript.cs.meta"
+          projectPath: Assets\Scripts\CameraScript.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\PlayerScript.cs
+        label: PlayerScript.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerScript.cs
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\PlayerScript.cs"
+          projectPath: Assets\Scripts\PlayerScript.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\PlayerScript.cs.meta
+        label: PlayerScript.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerScript.cs.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\PlayerScript.cs.meta"
+          projectPath: Assets\Scripts\PlayerScript.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Textures.meta
+        label: Textures.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Textures.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures.meta"
+          projectPath: Assets\Textures.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Textures
+        label: Textures
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Textures\chess.jpg
+        label: chess.jpg
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Textures\chess.jpg
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures\\chess.jpg"
+          projectPath: Assets\Textures\chess.jpg
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Textures\chess.jpg.meta
+        label: chess.jpg.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Textures\chess.jpg.meta
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures\\chess.jpg.meta"
+          projectPath: Assets\Textures\chess.jpg.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Packages\\manifest.json"
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Packages\\packages-lock.json"
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        label: AudioManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\AudioManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\AudioManager.asset"
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ClusterInputManager.asset
+        label: ClusterInputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ClusterInputManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ClusterInputManager.asset"
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\DynamicsManager.asset
+        label: DynamicsManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\DynamicsManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\DynamicsManager.asset"
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\EditorBuildSettings.asset"
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\EditorSettings.asset
+        label: EditorSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\EditorSettings.asset"
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\GraphicsSettings.asset
+        label: GraphicsSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\GraphicsSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\GraphicsSettings.asset"
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\InputManager.asset
+        label: InputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\InputManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\InputManager.asset"
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\NavMeshAreas.asset
+        label: NavMeshAreas.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\NavMeshAreas.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\NavMeshAreas.asset"
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\PackageManagerSettings.asset
+        label: PackageManagerSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\PackageManagerSettings.asset"
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\Physics2DSettings.asset
+        label: Physics2DSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\Physics2DSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\Physics2DSettings.asset"
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\PresetManager.asset
+        label: PresetManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PresetManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\PresetManager.asset"
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ProjectSettings.asset"
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectVersion.txt
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ProjectVersion.txt"
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\QualitySettings.asset
+        label: QualitySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\QualitySettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\QualitySettings.asset"
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\TagManager.asset"
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\TimeManager.asset
+        label: TimeManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TimeManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\TimeManager.asset"
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\UnityConnectSettings.asset
+        label: UnityConnectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\UnityConnectSettings.asset"
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\VersionControlSettings.asset
+        label: VersionControlSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\VersionControlSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\VersionControlSettings.asset"
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\VFXManager.asset
+        label: VFXManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\VFXManager.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\VFXManager.asset"
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\XRSettings.asset
+        label: XRSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\XRSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\XRSettings.asset"
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\UserSettings\\EditorUserSettings.asset"
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\.vsconfig"
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials.meta"
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Black.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Black.mat"
+      projectPath: Assets\Materials\Black.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Black.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Black.mat.meta"
+      projectPath: Assets\Materials\Black.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Blue.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Blue.mat"
+      projectPath: Assets\Materials\Blue.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Blue.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Blue.mat.meta"
+      projectPath: Assets\Materials\Blue.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Brown.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Brown.mat"
+      projectPath: Assets\Materials\Brown.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Brown.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Brown.mat.meta"
+      projectPath: Assets\Materials\Brown.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Chess.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Chess.mat"
+      projectPath: Assets\Materials\Chess.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Chess.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Chess.mat.meta"
+      projectPath: Assets\Materials\Chess.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Green.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Green.mat"
+      projectPath: Assets\Materials\Green.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Green.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Green.mat.meta"
+      projectPath: Assets\Materials\Green.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Red.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Red.mat"
+      projectPath: Assets\Materials\Red.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Red.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Red.mat.meta"
+      projectPath: Assets\Materials\Red.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Yellow.mat
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Yellow.mat"
+      projectPath: Assets\Materials\Yellow.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Materials\Yellow.mat.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Materials\\Yellow.mat.meta"
+      projectPath: Assets\Materials\Yellow.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins.meta"
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub.meta"
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor.meta"
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png"
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\credits.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\eula.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs"
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs"
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Resources.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Resources.meta"
+      projectPath: Assets\Resources.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes.meta"
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes\\SampleScene.unity"
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scenes\\SampleScene.unity.meta"
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts.meta"
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\CameraScript.cs
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\CameraScript.cs"
+      projectPath: Assets\Scripts\CameraScript.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\CameraScript.cs.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\CameraScript.cs.meta"
+      projectPath: Assets\Scripts\CameraScript.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\PlayerScript.cs
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\PlayerScript.cs"
+      projectPath: Assets\Scripts\PlayerScript.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\PlayerScript.cs.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Scripts\\PlayerScript.cs.meta"
+      projectPath: Assets\Scripts\PlayerScript.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Textures.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures.meta"
+      projectPath: Assets\Textures.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Textures\chess.jpg
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures\\chess.jpg"
+      projectPath: Assets\Textures\chess.jpg
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Textures\chess.jpg.meta
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\Textures\\chess.jpg.meta"
+      projectPath: Assets\Textures\chess.jpg.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\manifest.json
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Packages\\manifest.json"
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\packages-lock.json
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Packages\\packages-lock.json"
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\AudioManager.asset"
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ClusterInputManager.asset"
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\DynamicsManager.asset"
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\EditorBuildSettings.asset"
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\EditorSettings.asset"
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\GraphicsSettings.asset"
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\InputManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\InputManager.asset"
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\NavMeshAreas.asset"
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\PackageManagerSettings.asset"
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\Physics2DSettings.asset"
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\PresetManager.asset"
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ProjectSettings.asset"
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\ProjectVersion.txt"
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\QualitySettings.asset"
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TagManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\TagManager.asset"
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\TimeManager.asset"
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\UnityConnectSettings.asset"
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\VersionControlSettings.asset"
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\VFXManager.asset"
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\ProjectSettings\\XRSettings.asset"
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\UserSettings\\EditorUserSettings.asset"
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 102 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2021-04-12T10:44:55.785+01:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 311de70a2e66049412be5f1227c47acfcf4d99f2
+      mergeA: 
+      mergeB: 
+      authorName: "Andr\xE9 Gomes"
+      authorEmail: agomes@altyra.com
+      commitEmail: agomes@altyra.com
+      commitName: "Andr\xE9 Gomes"
+      summary: Initial commit
+      description: 
+      timeString: 2021-04-12T10:44:54.000+01:00
+      commitTimeString: 2021-04-12T10:44:54.000+01:00
+      changes:
+      - path: .gitattributes
+        fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\.gitattributes"
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\.gitignore"
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\.gitignore"
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2021-04-12T10:49:46.323+01:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 311de70a2e66049412be5f1227c47acfcf4d99f2
+        mergeA: 
+        mergeB: 
+        authorName: "Andr\xE9 Gomes"
+        authorEmail: agomes@altyra.com
+        commitEmail: agomes@altyra.com
+        commitName: "Andr\xE9 Gomes"
+        summary: Initial commit
+        description: 
+        timeString: 2021-04-12T10:44:54.000+01:00
+        commitTimeString: 2021-04-12T10:44:54.000+01:00
+        changes:
+        - path: .gitattributes
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\.gitattributes"
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\.gitignore"
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController\\Assets\\.gitignore"
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Program Files\Git\cmd\git.exe
+      gitLfsPath: "C:\\Users\\Andr\xE9 Gomes\\AppData\\Local\\GitHubUnity\\git-lfs\\git-lfs.exe"
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2021-04-12T10:44:55.785+01:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: "Andr\xE9 Gomes"
+      gitEmail: agomes@altyra.com
+      newGitName: "Andr\xE9 Gomes"
+      newGitEmail: agomes@altyra.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2021-04-12T10:44:46.311+01:00
+        cacheType: 8
+    webTimeout: 3000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 0
+  currentRemoteName: 
+  currentBranch: master
+  currentRemoteUrl: No remote configured
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 0
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: No remote configured
+    m_Image: {fileID: 0}
+    m_Tooltip: Add a remote in the Settings tab
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2021-04-12T10:44:55.785+01:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
+  connections: []
+  primaryConnectionUsername: 
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,12 +4896,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 2233
+    y: 73
+    width: 618
+    height: 580
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -325,10 +4921,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 499
-    width: 1365
-    height: 500
+    x: 1920
+    y: 472
+    width: 973
+    height: 471
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -343,22 +4939,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\Andr\xE9 Gomes\\Downloads\\characterController"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d8440000
-    m_LastClickedID: 17624
-    m_ExpandedIDs: 00000000d0440000
+    m_SelectedIDs: bc3a0000
+    m_LastClickedID: 15036
+    m_ExpandedIDs: 00000000463b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +4982,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000463b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -411,8 +5007,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 2e3a0000
+    m_LastClickedInstanceID: 14894
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -442,7 +5038,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,10 +5058,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1366
+    x: 2972
     y: 73
-    width: 553
-    height: 926
+    width: 313
+    height: 870
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -479,7 +5075,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -499,31 +5095,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 73
-    width: 401
-    height: 405
+    width: 471
+    height: 580
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 30dbffff
-      m_LastClickedID: -9424
-      m_ExpandedIDs: 54a8ffff30dbffff20e1ffff8afaffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: sensor
-        m_OriginalName: sensor
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -14512
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -533,7 +5129,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: c62205e13c67c82458eed1d6be646338
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -553,10 +5149,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 402
+    x: 2207
     y: 73
-    width: 962
-    height: 405
+    width: 685
+    height: 378
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 77a8c1bc8a371cf40915758b7e961bf8
@@ -569,9 +5165,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.1332035, y: 6.0957003, z: -27.004818}
+    m_Target: {x: 10.403141, y: 7.944471, z: -27.836796}
     speed: 2
-    m_Value: {x: 5.1332035, y: 6.0957003, z: -27.004818}
+    m_Value: {x: 10.403141, y: 7.944471, z: -27.836796}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,13 +5214,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14285092, y: -0.3189284, z: 0.04869126, w: 0.9356862}
+    m_Target: {x: 0.10944806, y: -0.27074048, z: 0.030998828, w: 0.9559081}
     speed: 2
-    m_Value: {x: 0.14285083, y: -0.3189282, z: 0.04869123, w: 0.93568563}
+    m_Value: {x: -0.10944806, y: 0.27074048, z: -0.030998828, w: -0.9559081}
   m_Size:
-    m_Target: 19.706804
+    m_Target: 2.966025
     speed: 2
-    m_Value: 19.706804
+    m_Value: 2.966025
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -649,7 +5245,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -669,10 +5265,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2206
+    x: 2392
     y: 73
-    width: 684
-    height: 380
+    width: 578
+    height: 580
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -680,7 +5276,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 684, y: 359}
+  m_TargetSize: {x: 578, y: 559}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -695,10 +5291,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -342
-    m_HBaseRangeMax: 342
-    m_VBaseRangeMin: -179.5
-    m_VBaseRangeMax: 179.5
+    m_HBaseRangeMin: -289
+    m_HBaseRangeMax: 289
+    m_VBaseRangeMin: -279.5
+    m_VBaseRangeMax: 279.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -707,7 +5303,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -716,29 +5312,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 684
-      height: 359
+      width: 578
+      height: 559
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 342, y: 179.5}
+    m_Translation: {x: 289, y: 279.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -342
-      y: -179.5
-      width: 684
-      height: 359
+      x: -289
+      y: -279.5
+      width: 578
+      height: 559
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 684, y: 380}
+  m_LastWindowPixelSize: {x: 578, y: 580}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -758,12 +5354,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 718
-    width: 1366
-    height: 308
+    x: 1920
+    y: 674
+    width: 1051
+    height: 269
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
