@@ -1,0 +1,83 @@
+select * from Clientes
+where NIF >= 2;
+
+select * from Clientes
+where NIF between 1 and 2;
+
+select * from Clientes
+where NIF >=1 and NIF <=2;
+
+select * from Clientes
+where NIF <1 or NIF >2;
+
+select * from clientes; 
+
+Select * from Clientes
+where Nome like '[AR]%';
+
+Select * from Clientes
+where Nome like '___';
+
+Select * from Clientes
+where NIF in (select distinct NIF from Alugueres);
+
+Select * from Clientes
+where NIF > all (select distinct NIF from Alugueres);
+
+Select * from Clientes c
+where not exists (
+select * from alugueres a
+where a.nif = c.nif
+)
+union
+Select * from Clientes c
+where exists (
+select * from alugueres a
+where a.nif = c.nif
+)
+
+select * from Alugueres;
+
+with tempos (ordem, id, NIF, matricula, inicio, fim, tempo)
+as (select ROW_NUMBER() over(partition by NIF order by tempo desc) as ordem, * from Alugueres)
+select * from tempos --where ordem between 2 and 3;
+
+select idaluguer, NIF, matricula, tempo, (tempo * 25) as custo, (tempo * 25 * 1.23) as IVA 
+from Alugueres;
+
+with cte as (
+select idaluguer, nif, matricula, tempo, (tempo * 25) as custo from alugueres)
+select *, (custo *1.23) as IVA from cte;
+
+select * , ( case
+when tempo between 1 and 2 then 'pequeno'
+when tempo between 3 and 4 then 'medio'
+else 'grande'
+end) as categoria
+from Alugueres;
+
+select *, iif (tempo > 2, 'grande','pequeno') as cat
+from alugueres;
+
+select A.Nome, B.Nome from Clientes A, Clientes B  where A.Nome < B.Nome order by A.Nome;
+
+
+select c.nome, c.nif, a.nif, a.tempo, a.matricula from clientes c, alugueres a
+where a.nif = c.nif;
+
+select c.NIF, c.Nome, a.idaluguer, a.tempo from clientes C inner join alugueres A
+on c.nif = a.nif;
+
+select c.NIF, c.Nome, a.idaluguer, a.tempo from clientes C, alugueres A
+where c.nif = a.nif;
+
+select c.NIF, c.Nome, a.idaluguer, a.tempo, (v.phora * a.tempo) as custo, v.modelo from clientes C inner join alugueres A
+on c.nif = a.nif inner join Viaturas V on v.matricula = a.matricula;
+
+
+
+	
+
+
+
+

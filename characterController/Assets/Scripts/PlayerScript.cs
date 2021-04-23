@@ -1,62 +1,105 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Colisao cc next aula
 public class PlayerScript : MonoBehaviour
 {
-    private Transform sensor;    
-    private Transform mira;
+    Transform sensor;
+    Transform Mira;
+    AudioSource som;
     CharacterController cc;
-    private LayerMask piso;
+    LayerMask piso;
     Vector3 altura = Vector3.zero;
-
     void Start()
     {
+        som = GetComponent<AudioSource>();
         piso = LayerMask.GetMask("piso");
         sensor = GameObject.FindGameObjectWithTag("Sensor").transform;
-        mira = GameObject.FindGameObjectWithTag("Mira").transform;
+        Mira = GameObject.FindGameObjectWithTag("Mira").transform;
         cc = GetComponent<CharacterController>();
         cc.Move(new Vector3(1, 0, 0));
     }
 
-    private bool noChao;
-    private float distChao = 0.6f;
+    bool noChao;
+    float distanciaChao = 0.6f;
     public float speed = 100f;
-    private float gravidade = -9.8f;
-    public float jump = 100f;
+    float gravidade = -9.8f;
+    public float salto = 100f;
 
-    // Update is called once per frame
     void Update()
     {
 
-        noChao = Physics.CheckSphere(sensor.position, distChao, piso, QueryTriggerInteraction.Collide);
+        noChao = Physics.CheckSphere(
+            sensor.position,
+            distanciaChao,
+            piso,
+            QueryTriggerInteraction.Collide);
         if (noChao && altura.y < 0) altura.y = -2;
         float x = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         float z = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         Vector3 anda = transform.right * x + transform.forward * z;
         cc.Move(anda);
-
-        if (noChao && Input.GetButtonDown("Jump")) altura.y = Mathf.Sqrt(gravidade * -2.0f * jump);
+        if (noChao && Input.GetButtonDown("Jump")) altura.y = Mathf.Sqrt(gravidade * -2.0f * salto);
         altura.y += gravidade;
-
-
         cc.Move(altura);
-
-        if (Input.GetKeyDown(KeyCode.Mouse0)) shoot();
+        if (Input.GetKeyDown(KeyCode.X)) atira();
+        
     }
 
-    protected void shoot()
+    private void FixedUpdate()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(mira.position,mira.forward, out hit, Mathf.Infinity))
-        {
-            Debug.Log(hit.collider.gameObject.name);
+        if (Input.GetKeyDown(KeyCode.E)) lanca();
+    }
+    public float forcaimpacto = 100f;
+
+    bool stopfire;
+
+    IEnumerator permiteFogo(float segs)
+    {
+        yield return new WaitForSeconds(segs);
+        stopfire = false;
+    }
+
+    public AudioClip estouro;
+    void lanca()
+    {
+       
+        if (!stopfire) {
+            stopfire = true;
+            StartCoroutine(permiteFogo(0.5f));
+            GameObject bala = (GameObject)Resources.Load("bala", typeof(GameObject));
+            bala = Instantiate(bala, Mira.position, Quaternion.identity);
+            som.PlayOneShot(estouro);
+            Rigidbody rb = bala.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Mira.forward * forcaimpacto;
+            }
+            GameObject.Destroy(bala.gameObject, 3);
         }
     }
 
+
+
+    protected void atira()
+    {
+
+        Debug.DrawRay(Mira.position, Mira.forward * 200f, Color.red, 0.2f);
+        som.Play();
+        RaycastHit hit;
+        if (Physics.Raycast(Mira.position, Mira.forward, out hit, Mathf.Infinity))
+        {
+            ParticleSystem fogo = (ParticleSystem)Resources.Load("fogo", typeof(ParticleSystem));
+            fogo = Instantiate(fogo, hit.point + new Vector3(0, 0, -1), Quaternion.identity);
+            GameObject.Destroy(fogo.gameObject, fogo.main.duration);
+            // Debug.Log(hit.collider.gameObject.name);  
+        }
+    }
+
+    public float forca = 100f;
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        float forca = 100f;
+
         if (hit.gameObject.layer == LayerMask.NameToLayer("obstaculo"))
         {
             if (hit.moveDirection.y < 0) return;
@@ -66,7 +109,9 @@ public class PlayerScript : MonoBehaviour
                 rb.velocity = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z) * forca;
             }
 
-            Debug.Log("Yey :D");
+
+
         }
     }
+
 }

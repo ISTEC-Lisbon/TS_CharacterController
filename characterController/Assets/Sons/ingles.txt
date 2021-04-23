@@ -1,0 +1,40 @@
+Hitch= segurar - hold, insure, secure, hold back, ensure, take
+         : ficar preso
+         : mancar - limp, hobble, lame, hitch, dot and go one, cripple ;puxar subitamente
+         :amarrar - tie, bind, string, moor, attach, secure
+         :prender com um nó - hitch
+
+tether= corrente
+              current, chain, stream, flow, tide, tether
+
+ rely =depender
+	depend, depend on, rely, lean
+	contar com
+	count on, rely, anticipate fiar-se
+
+
+
+lean=magro
+	thin, skinny, lean, slender, meager, gaunt
+	pobre
+		poor, shabby, lean, pauper, needy, penniless
+	esguio
+		slender, slim, lean, lanky, thin, rangy
+	estéril
+		sterile, barren, infertile, fruitless, effete, lean
+	improdutivo
+		unproductive, barren, unfruitful, sterile, fruitless, lean
+	de má qualidade
+		lean
+	encostar
+		lean, backboard
+	depender
+		depend, depend on, rely, lean, 
+	tender
+		tend, trend, lean, run, go, direct
+	repousar
+		rest, lie, sleep, lean, recline, pillow
+	suportar
+		support, bear, endure, back, tolerate, lean
+	inclinar-se
+		lean, bend, camber, bow, crouch, decline
