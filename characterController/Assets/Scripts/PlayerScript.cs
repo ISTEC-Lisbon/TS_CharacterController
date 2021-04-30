@@ -42,13 +42,13 @@ public class PlayerScript : MonoBehaviour
         if (noChao && Input.GetButtonDown("Jump")) altura.y = Mathf.Sqrt(gravidade * -2.0f * salto);
         altura.y += gravidade;
         cc.Move(altura);
-        if (Input.GetKeyDown(KeyCode.X)) atira();
-        
+        if (Input.GetKeyDown(KeyCode.Mouse0)) Atira();
+
     }
 
     private void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.E)) lanca();
+        if (Input.GetKeyDown(KeyCode.Mouse1)) lanca();
     }
     public float forcaimpacto = 100f;
 
@@ -63,8 +63,9 @@ public class PlayerScript : MonoBehaviour
     public AudioClip estouro;
     void lanca()
     {
-       
-        if (!stopfire) {
+
+        if (!stopfire)
+        {
             stopfire = true;
             StartCoroutine(permiteFogo(0.5f));
             GameObject bala = (GameObject)Resources.Load("bala", typeof(GameObject));
@@ -81,7 +82,7 @@ public class PlayerScript : MonoBehaviour
 
 
 
-    protected void atira()
+    protected void Atira()
     {
 
         Debug.DrawRay(Mira.position, Mira.forward * 200f, Color.red, 0.2f);
@@ -92,6 +93,12 @@ public class PlayerScript : MonoBehaviour
             ParticleSystem fogo = (ParticleSystem)Resources.Load("fogo", typeof(ParticleSystem));
             fogo = Instantiate(fogo, hit.point + new Vector3(0, 0, -1), Quaternion.identity);
             GameObject.Destroy(fogo.gameObject, fogo.main.duration);
+            if (hit.collider.gameObject.CompareTag("Inimigo"))
+            {
+                inimigoScript inimigoScript = hit.collider.gameObject.GetComponent<inimigoScript>();
+                if (inimigoScript != null) inimigoScript.Matou();
+
+            }
             // Debug.Log(hit.collider.gameObject.name);  
         }
     }
